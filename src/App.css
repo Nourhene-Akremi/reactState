@@ -1,38 +1,42 @@
-.App {
+.myimage{
+  width:20rem;
+  height: 20rem;
+  border-radius: 10rem 1rem 10rem 1rem;
+   margin-top: 2rem;
+   margin-left: 20rem;
+
+}
+.title ,.description,p{
+  margin-left: 25rem;
+  margin-top: 1rem;
+}
+ button{
+  margin-left: 27rem;
+  margin-top: 2rem;
+  border:1rem inset rgb(243, 26, 26);
+  border-width: .3rem;
+  border-radius:3rem;
+  padding: 0.5rem;
   text-align: center;
-}
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: blue;
+  
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .title,.description{ 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 1rem;
+   word-spacing: 0.3rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ button:hover{
+cursor: pointer;
+padding-left:1rem;
+background-color: rgb(233, 247, 39);
+/*horizantal vertical blur spread*/
+box-shadow:1rem 1rem 1rem rgb(197, 20, 20);
+border-width: .2em;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+text-transform: uppercase;
+ }
